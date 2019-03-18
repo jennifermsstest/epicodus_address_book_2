@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Move Tickets</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Move Tickets</h1>
+      <form id="tickets">
+
+        <p>Name of Movie</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="1" checked>
+            Movie 1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="2">
+            Movie 2
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="3">
+            Movie 3
+          </label>
+        </div>
+
+        <p>Time of Day:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="1" checked>
+            Before Noon
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="2">
+            Noon
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="day" value="3">
+            After Noon
+          </label>
+        </div>
+
+        <p>Age:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="1" checked>
+           15 and under
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="2">
+            16-24
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="3">
+            25 and up
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Click for results!</button>
+      </form>
+
+      <div id="output">
+        <span id="answer"></span>
+      </div>
+
+    </div>
+  </body>
+</html>
